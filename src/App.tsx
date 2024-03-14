@@ -1,5 +1,7 @@
+import Tweet from "./components/pages/tweet"
+
 function App() {
-  return <div>deneme</div>
+  return <Tweet />
 }
 
 export default App
