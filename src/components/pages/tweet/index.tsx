@@ -1,11 +1,9 @@
-import Button from "../../ui/button"
-import Input from "../../ui/input"
+import TweetGenerator from "./tweet-generator"
 
 function Tweet() {
   return (
-    <section>
-      <Input size="large" />
-      <Button variant="danger">fawaw</Button>
+    <section className="w-full h-dvh flex items-center justify-center">
+      <TweetGenerator />
     </section>
   )
 }
